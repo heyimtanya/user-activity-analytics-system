@@ -55,7 +55,7 @@ Request Body:
 ⏱️ Automated Reports
 Daily reports generated using node-cron
 Includes:
-Total users
-Event distribution
-Activity trends
+- Total users
+- Event distribution
+- Activity trends
 
