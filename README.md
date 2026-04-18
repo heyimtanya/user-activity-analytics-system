@@ -42,7 +42,6 @@ This project simulates real-world logging and analytics pipelines used in scalab
 ## ⚙️ API Endpoints
 
 ### 🔹 Track User Event
-POST /api/events
 
 Request Body:
 {
