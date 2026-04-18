@@ -50,16 +50,7 @@ Request Body:
   "eventType": "login",
   "timestamp": "2026-04-18T10:00:00Z"
 }
-🔹 Get Analytics
 
-GET /api/analytics
-
-Response Example:
-
-{
-  "dailyActiveUsers": 120,
-  "mostFrequentEvent": "login"
-}
 
 ⏱️ Automated Reports
 Daily reports generated using node-cron
