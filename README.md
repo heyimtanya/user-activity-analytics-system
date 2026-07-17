@@ -1,60 +1,16 @@
-# 📊 User Activity Analytics & Reporting System
+# React + Vite
 
-A backend-focused system to track user activity, generate analytics, and automate reporting.  
-This project simulates real-world logging and analytics pipelines used in scalable applications.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Track user activity (login, actions, events)
-- Real-time event ingestion via REST APIs
-- Generate analytics:
-  - Daily Active Users (DAU)
-  - Event frequency
-  - Usage trends
-- Automated report generation using scheduled jobs
-- Structured storage of logs for efficient querying
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the Oxlint configuration
 
-- Backend: Node.js, Express.js  
-- Database: MongoDB  
-- Scheduling: node-cron  
-
----
-
-## 📂 Project Structure
-├── controllers/
-├── routes/
-├── models/
-├── services/
-├── utils/
-├── config/
-├── app.js
-└── package.json
-
-
----
-
-## ⚙️ API Endpoints
-
-### 🔹 Track User Event
-
-Request Body:
-{
-  "userId": "123",
-  "eventType": "login",
-  "timestamp": "2026-04-18T10:00:00Z"
-}
-
-
-⏱️ Automated Reports
-Daily reports generated using node-cron
-Includes:
-- Total users
-- Event distribution
-- Activity trends
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
